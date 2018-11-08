@@ -1,3 +1,18 @@
+
 <resources>
-    <string name="app_name">AmritsarGuide</string>
+    <!-- Title for the application. [CHAR LIMIT=20] -->
+    <string name="app_name">AmritsarTourGuide</string>
+
+    <!-- Category name for the Malls Activity. [CHAR LIMIT=20] -->
+    <string name="category_malls">Malls</string>
+
+    <!-- Category name for the Hotels activity. [CHAR LIMIT=20] -->
+    <string name="category_hotels">Hotels</string>
+
+    <!-- Category name for the Restaurants activity. [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for the Historical Places activity. [CHAR LIMIT=20] -->
+    <string name="category_historical_places">Historical Places</string>
+
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sidhutechpvtltd.www.amritsartouristguideapp">
+    package="com.sidhutechpvtltd.www.amritsartourguide">
 
     <application
         android:allowBackup="true"
@@ -9,12 +9,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.sidhutechpvtltd.www.amritsartourguide.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sidhutechpvtltd.www.amritsartourguide.RestaurantsActivity"
+            android:label="@string/category_restaurants"
+            android:parentActivityName="com.sidhutechpvtltd.www.amritsartourguide.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sidhutechpvtltd.www.amritsartourguide.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.sidhutechpvtltd.www.amritsartourguide.HistoricalPlacesActivity"
+            android:label="@string/category_historical_places"
+            android:parentActivityName="com.sidhutechpvtltd.www.amritsartourguide.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sidhutechpvtltd.www.amritsartourguide.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.sidhutechpvtltd.www.amritsartourguide.HotelsActivity"
+            android:label="@string/category_hotels"
+            android:parentActivityName="com.sidhutechpvtltd.www.amritsartourguide.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sidhutechpvtltd.www.amritsartourguide.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.sidhutechpvtltd.www.amritsartourguide.MallsActivity"
+            android:label="@string/category_malls"
+            android:parentActivityName="com.sidhutechpvtltd.www.amritsartourguide.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sidhutechpvtltd.www.amritsartourguide.MainActivity"/>
         </activity>
     </application>
 
