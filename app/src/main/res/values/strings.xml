@@ -15,4 +15,55 @@
     <!-- Category name for the Historical Places activity. [CHAR LIMIT=20] -->
     <string name="category_historical_places">Historical Places</string>
 
+    <string name="historical_place1">Golden Temple</string>
+    <string name="historical_place1_info">Town Hall</string>
+
+    <string name="historical_place2">Durgiana Temple</string>
+    <string name="historical_place2_info">Goal Bagh</string>
+
+    <string name="historical_place3">Jallianwala Bagh</string>
+    <string name="historical_place3_info">Town Hall</string>
+
+    <string name="historical_place4">Gobindgarh Fort</string>
+    <string name="historical_place4_info">Vijay Chowk</string>
+
+    <string name="historical_place5">Partition Museum</string>
+    <string name="historical_place5_info">Town Hall</string>
+
+    <string name="historical_place6">Wagah Border</string>
+    <string name="historical_place6_info">Hardo Rattan</string>
+
+    <string name="hotel1">Hyatt Regency Amritsar</string>
+    <string name="hotel1_info">MBM Farms</string>
+
+    <string name="hotel2">MK Hotel</string>
+    <string name="hotel2_info">Ranjit Avenue</string>
+
+    <string name="hotel3">Holiday Inn</string>
+    <string name="hotel3_info">Ranjit Avenue</string>
+
+    <string name="hotel4">Comfort Inn Alstonia</string>
+    <string name="hotel4_info">Ranjit Avenue</string>
+
+    <string name="Mall1">Trillium Mall</string>
+    <string name="Mall1_info">Nirankari Colony</string>
+
+    <string name="Mall2">The Celebration Mall</string>
+    <string name="Mall2_info">Brij Bhushan Mehra Square</string>
+
+    <string name="Mall3">Mall of Amritsar</string>
+    <string name="Mall3_info">Rajinder Nagar</string>
+
+    <string name="Restaurants1">Kulcha Land</string>
+    <string name="Restaurants1_info">Ranjit Avenue</string>
+
+    <string name="Restaurants2">Gyani Tea Stall</string>
+    <string name="Restaurants2_info">Crystal Chowk</string>
+
+    <string name="Restaurants3">Brijwasi Chat</string>
+    <string name="Restaurants3_info">Ranjit Avenue</string>
+
+    <string name="Restaurants4">Brothers Dhaba</string>
+    <string name="Restaurants4_info">Town Hall</string>
+
 </resources>

@@ -1,21 +1,18 @@
 <resources>
 
+   <!-- Base application theme. -->
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorPrimaryDark">@color/primary_dark_color</item>
-        <item name="actionBarStyle">@style/AmritsarTourGuideAppBarStyle</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="colorAccent">@color/primary_dark_color</item>
-        <item name="android:colorBackground">@color/primary_dark_color</item>
-        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <!-- App bar style -->
     <style name="AmritsarTourGuideAppBarStyle" >
         <!-- Remove the shadow below the app bar -->
         <item name="elevation">0dp</item>
-        <item name="android:color">#4A312A</item>
     </style>
 
     <!-- Style for a category of placeInfos -->

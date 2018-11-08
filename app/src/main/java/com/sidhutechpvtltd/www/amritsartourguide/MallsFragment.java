@@ -26,9 +26,9 @@ public class MallsFragment extends Fragment {
 
         // Create a list of placeInfos
         final ArrayList<PlaceInfo> placeInfos = new ArrayList<PlaceInfo>();
-        placeInfos.add(new PlaceInfo("NiranKari Colony", "Trilium Mall", R.drawable.trillium_mall));
-        placeInfos.add(new PlaceInfo("Brij Bhushan Mehra Square", "The Celebration Mall", R.drawable.celebrationmal_amritsar));
-        placeInfos.add(new PlaceInfo("Rajinder Nagar", "Mall of Amritsar", R.drawable.mall_of_amritsar));
+        placeInfos.add(new PlaceInfo(R.string.Mall1_info ,R.string.Mall1, R.drawable.trillium_mall));
+        placeInfos.add(new PlaceInfo(R.string.Mall2_info, R.string.Mall2, R.drawable.celebrationmal_amritsar));
+        placeInfos.add(new PlaceInfo(R.string.Mall3_info, R.string.Mall3, R.drawable.mall_of_amritsar));
 
         // Create an {@link CustomAdapter}, whose data source is a list of {@link PlaceInfo}s. The
         // adapter knows how to create list items for each item in the list.

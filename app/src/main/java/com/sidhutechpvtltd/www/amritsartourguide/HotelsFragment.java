@@ -27,10 +27,10 @@ public class HotelsFragment extends Fragment {
 
         // Create a list of placeInfos
         final ArrayList<PlaceInfo> placeInfos = new ArrayList<PlaceInfo>();
-        placeInfos.add(new PlaceInfo("MBM Farms", "Hyatt Regency Amritsar", R.drawable.hyatt_amritsar));
-        placeInfos.add(new PlaceInfo("Ranjit Avenue", "MK Hotel", R.drawable.mk_hotel));
-        placeInfos.add(new PlaceInfo("Ranjit Avenue", "Holiday Inn", R.drawable.holiday_inn_amritsar));
-        placeInfos.add(new PlaceInfo("Ranjit Avenue", "Comfort Inn Alstonia", R.drawable.comfort_inn));
+        placeInfos.add(new PlaceInfo(R.string.hotel1_info, R.string.hotel1, R.drawable.hyatt_amritsar));
+        placeInfos.add(new PlaceInfo(R.string.hotel2_info, R.string.hotel2, R.drawable.mk_hotel));
+        placeInfos.add(new PlaceInfo(R.string.hotel3_info, R.string.hotel3, R.drawable.holiday_inn_amritsar));
+        placeInfos.add(new PlaceInfo(R.string.hotel4_info, R.string.hotel4, R.drawable.comfort_inn));
 
         // Create an {@link CustomAdapter}, whose data source is a list of {@link PlaceInfo}s. The
         // adapter knows how to create list items for each item in the list.

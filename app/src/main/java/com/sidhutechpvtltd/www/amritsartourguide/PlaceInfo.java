@@ -7,9 +7,9 @@ package com.sidhutechpvtltd.www.amritsartourguide;
 
 public class PlaceInfo {
     /** Place Address  */
-    private String aPlaceAddress;
+    private int aPlaceAddress;
     /** Place Name */
-    private String aPlaceName;
+    private int aPlaceName;
 
     /** Images for each PlaceInfo. */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -23,7 +23,7 @@ public class PlaceInfo {
      * @param placeName is the name of a place.
      * @param imageResourceId is resource id for images.
      */
-    public PlaceInfo(String placeAddress, String placeName , int imageResourceId){
+    public PlaceInfo(int placeAddress, int placeName , int imageResourceId){
         aPlaceAddress = placeAddress;
         aPlaceName = placeName;
         mImageResourceId = imageResourceId;
@@ -31,13 +31,13 @@ public class PlaceInfo {
     /**
      * Get the place address.
      */
-    public String getPlaceAddress() {
+    public int getPlaceAddress() {
         return aPlaceAddress;
     }
     /**
      * Get the place name.
      */
-    public String getPlacename() {
+    public int getPlacename() {
         return aPlaceName;
     }
 

@@ -24,10 +24,10 @@ public class RestaurantsFragments extends Fragment {
         View rootView = inflater.inflate(R.layout.places_list, container, false);
         // Create a list of placeInfos
         final ArrayList<PlaceInfo> placeInfos = new ArrayList<PlaceInfo>();
-        placeInfos.add(new PlaceInfo("Ranjit Avenue", "Kulcha Land", R.drawable.kulcha_land));
-        placeInfos.add(new PlaceInfo("Crystal Chowk", "Gyani Tea Stall", R.drawable.gyani_tea_stall));
-        placeInfos.add(new PlaceInfo("Ranjit Avenue", "Brijwasi Chat", R.drawable.brijwasi_chat));
-        placeInfos.add(new PlaceInfo("Town Hall", "Brothers Dhaba", R.drawable.brothers_dhaba));
+        placeInfos.add(new PlaceInfo(R.string.Restaurants1_info, R.string.Restaurants1, R.drawable.kulcha_land));
+        placeInfos.add(new PlaceInfo(R.string.Restaurants2_info, R.string.Restaurants2, R.drawable.gyani_tea_stall));
+        placeInfos.add(new PlaceInfo(R.string.Restaurants3_info, R.string.Restaurants3, R.drawable.brijwasi_chat));
+        placeInfos.add(new PlaceInfo(R.string.Restaurants4_info, R.string.Restaurants4, R.drawable.brothers_dhaba));
 
         // Create an {@link CustomAdapter}, whose data source is a list of {@link PlaceInfo}s. The
         // adapter knows how to create list items for each item in the list.
